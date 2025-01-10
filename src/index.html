@@ -7,7 +7,7 @@
     <title>Tailwindcss入門</title>
   </head>
   <body>
-    <header class="bg-blue-400 p-4">
+    <header class="bg-blue-400 p-4 text-white">
       <nav class="flex justify-between mx-auto container items-center">
         <div class="text-4xl">HIRORO_CODE.com</div>
         <div class="space-x-12 font-bold">
@@ -24,9 +24,28 @@
       </nav>
     </header>
     <main>
-      <div
-        class="bg-tutorial-bg min-h-screen bg-cover bg-center object-cover"
-      ></div>
+      <div class="bg-tutorial-bg min-h-screen bg-cover bg-center object-cover">
+        <div class="md:flex container mx-auto md:justify-around py-60 md:py-80">
+          <div class="flex flex-col text-center md:text-left">
+            <h1 class="text-5xl sm:text-7xl font-bold">追い風を感じる🚀</h1>
+            <p class="text-xl my-10">
+              TailwindcssでCSSスタイリングを加速させる
+            </p>
+            <a
+              href=""
+              class="px-6 py-3 bg-blue-600 rounded-md text-white hover:bg-blue-800 cursor-pointer transition-all duration-300 w-max self-center md:self-start"
+              >詳しく見る</a
+            >
+          </div>
+          <div>
+            <img
+              src="./img/tailwind-logo.png"
+              alt=""
+              class="mx-auto mt-24 md:mt-0"
+            />
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
